@@ -77,7 +77,7 @@ class simplebatch:
             print(f"About to submit job with params {app_param}")
             rjp = {
                 "method": method_name,
-                "params": [params],
+                "params": [app_param],
                 "service_ver": service_ver,
                 "wsid": wsid,
                 "app_id": "RanWithBatch",
